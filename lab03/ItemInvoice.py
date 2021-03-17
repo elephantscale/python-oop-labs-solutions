@@ -19,7 +19,7 @@ class ItemInvoice:
 
 def main():
     invoice = ItemInvoice(100, "stereo system")
-    #invoice.description = "a new description"
+#    invoice.description = "a new description"
     print("Item quantity: " + str(invoice.item))
     print("Item description: " + invoice.description)
 
