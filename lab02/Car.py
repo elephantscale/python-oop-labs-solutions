@@ -13,12 +13,14 @@ class Car:
     def GetSpeed(self):
         print(self.speed)
 
+
 def main():
     obj=Car()
     print(obj)
     obj.Turn()
     obj.Accelerate()
     obj.GetSpeed()
+
 
 if __name__ == "__main__":
     main()
