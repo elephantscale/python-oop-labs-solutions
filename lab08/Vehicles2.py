@@ -3,7 +3,7 @@ _categories = []
 class Vehicle:
     @classmethod
     def __init_subclass__(cls, **kwargs):
-			super().__init_subclass__(**kwargs)
+        super().__init_subclass__(**kwargs)
         _categories.append(cls)
 
 class Truck(Vehicle):
