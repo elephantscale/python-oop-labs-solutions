@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 @dataclass
 class AData:
-    field1:int=0
+    field1:int=1
     field2:int=1
 
 @dataclass
